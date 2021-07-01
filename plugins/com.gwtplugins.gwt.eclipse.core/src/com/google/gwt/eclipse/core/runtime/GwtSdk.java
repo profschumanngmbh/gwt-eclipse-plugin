@@ -24,6 +24,7 @@ import com.google.gwt.eclipse.core.GWTPlugin;
 import com.google.gwt.eclipse.core.GWTPluginLog;
 import com.google.gwt.eclipse.core.launch.processors.GwtLaunchConfigurationProcessorUtilities;
 import com.google.gwt.eclipse.core.preferences.GWTPreferences;
+import com.google.gwt.eclipse.core.properties.GWTProjectProperties;
 import com.google.gwt.eclipse.core.util.Util;
 
 import org.eclipse.core.resources.IProject;
@@ -216,11 +217,22 @@ public abstract class GwtSdk extends AbstractSdk {
      */
     @Override
     public String getVersion() {
+      // BEGIN CUSTOMIZATION //
+      // Retrieving the version of a ProjectBoundSdk via the classloader is still SLOW, even if we
+      // cache it after the first time! This is a workaround that skips the whole procedure if the
+      // version string can be found in the properties of the project instead.
+      // We use a Gradle plugin to set that value before even importing the project into Eclipse.
+      String version = GWTProjectProperties.getFixedGwtSdkVersion(javaProject.getProject());
+      if (version != null && !version.isEmpty()) {
+        return SdkUtils.cleanupVersion(version);
+      }
+      // END CUSTOMIZATION //
+
       IPath installationPath = getInstallationPath();
       IEclipsePreferences prefs = getProjectProperties(javaProject.getProject());
 
       // Try getting the cached version for the install path
-      String version = prefs.get(GWT_VERSION_PREF + installationPath.toOSString(), null);
+      version = prefs.get(GWT_VERSION_PREF + installationPath.toOSString(), null);
 
       if (version == null || version.isEmpty()) {
         // Find/search for the version, using a classpath search

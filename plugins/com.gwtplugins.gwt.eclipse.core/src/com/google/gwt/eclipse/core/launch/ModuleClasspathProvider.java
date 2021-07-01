@@ -219,9 +219,12 @@ public class ModuleClasspathProvider extends StandardClasspathProvider {
     }
 
     // Log duplicate jars
-    try {
-      logErrorIfMoreThanGWTSdkOnClassPath(proj, resolvedEntries);
-    } catch (Exception e) {}
+    // BEGIN CUSTOMIZATION
+    // We use Gradle, so having more than one SDK in the classpath is unavoidable. No need to spam the console with it.
+//    try {
+//      logErrorIfMoreThanGWTSdkOnClassPath(proj, resolvedEntries);
+//    } catch (Exception e) {}
+    // END CUSTOMIZATION
 
     createWarOutDirectory(proj);
 

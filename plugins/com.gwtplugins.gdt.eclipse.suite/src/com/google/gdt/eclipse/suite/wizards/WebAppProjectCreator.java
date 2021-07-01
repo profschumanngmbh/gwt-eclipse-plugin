@@ -387,6 +387,7 @@ public class WebAppProjectCreator implements IWebAppProjectCreator {
     this.gwtSdk = gwtSdk;
   }
 
+  @Override
   public Sdk getGwtSdk() {
     return gwtSdk;
   }

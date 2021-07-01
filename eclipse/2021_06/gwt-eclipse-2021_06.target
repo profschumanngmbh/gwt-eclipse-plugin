@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?pde?>
+<!-- generated with https://github.com/eclipse-cbi/targetplatform-dsl -->
+<target name="GWT Eclipse Plugin for 2021-06" sequenceNumber="1625051904">
+  <locations>
+    <location includeMode="planner" includeAllPlatforms="false" includeSource="true" includeConfigurePhase="false" type="InstallableUnit">
+      <unit id="org.eclipse.license.feature.group" version="2.0.2.v20181016-2210"/>
+      <repository location="http://download.eclipse.org/cbi/updates/license"/>
+    </location>
+    <location includeMode="planner" includeAllPlatforms="false" includeSource="true" includeConfigurePhase="false" type="InstallableUnit">
+      <unit id="org.eclipse.sdk.feature.group" version="4.20.0.v20210611-1636"/>
+      <unit id="org.eclipse.jdt.feature.group" version="3.18.800.v20210611-1600"/>
+      <unit id="org.eclipse.m2e.feature.feature.group" version="1.18.0.20210603-1206"/>
+      <unit id="org.eclipse.m2e.sdk.feature.feature.group" version="1.18.0.20210603-1006"/>
+      <unit id="org.eclipse.m2e.wtp.feature.feature.group" version="1.4.4.20201128-1705"/>
+      <unit id="org.eclipse.m2e.wtp.sdk.feature.feature.group" version="1.4.4.20201128-1705"/>
+      <unit id="org.eclipse.mylyn.commons.feature.group" version="3.25.2.v20200813-0821"/>
+      <unit id="org.eclipse.jpt.jpa.feature.feature.group" version="3.6.1.v202106020926"/>
+      <unit id="org.eclipse.datatools.sdk.feature.feature.group" version="1.14.102.201911250848"/>
+      <unit id="org.eclipse.swtbot.eclipse.feature.group" version="3.1.0.202106041005"/>
+      <unit id="org.eclipse.jetty.http" version="10.0.5"/>
+      <unit id="org.eclipse.jetty.servlet" version="10.0.5"/>
+      <unit id="org.eclipse.jetty.server" version="10.0.5"/>
+      <unit id="org.eclipse.jetty.util" version="10.0.5"/>
+      <repository location="https://download.eclipse.org/releases/2021-06/"/>
+    </location>
+    <location includeMode="planner" includeAllPlatforms="false" includeSource="true" includeConfigurePhase="false" type="InstallableUnit">
+      <unit id="org.eclipse.jst.web_sdk.feature.feature.group" version="3.22.0.v202103200058"/>
+      <unit id="org.eclipse.jst.server_sdk.feature.feature.group" version="3.4.400.v201910252115"/>
+      <unit id="org.eclipse.jst.common.fproj.enablement.jdt.sdk.feature.group" version="3.22.0.v202103232321"/>
+      <unit id="org.eclipse.wst.common.fproj.sdk.feature.group" version="3.7.2.v202007142017"/>
+      <unit id="org.eclipse.wst.web_sdk.feature.feature.group" version="3.22.0.v202103232331"/>
+      <unit id="org.eclipse.jst.enterprise_sdk.feature.feature.group" version="3.22.0.v202103200058"/>
+      <unit id="org.eclipse.wst.server_adapters.sdk.feature.feature.group" version="3.2.700.v201910252115"/>
+      <repository location="https://download.eclipse.org/webtools/downloads/drops/R3.22.0/R-3.22.0-20210612170523/repository"/>
+    </location>
+    <location includeMode="planner" includeAllPlatforms="false" includeSource="true" includeConfigurePhase="false" type="InstallableUnit">
+      <unit id="org.hamcrest" version="1.1.0.v20090501071000"/>
+      <repository location="http://download.eclipse.org/tools/orbit/downloads/drops/R20210602031627/repository"/>
+    </location>
+  </locations>
+</target>

@@ -9,13 +9,13 @@
  *    * Right-lick in the editor and choose 'Set as Target Platform'
  *      to update your IDE's target platform (regenerates the .target too)
  */
-target "GWT Eclipse Plugin for Oxygen" with source requirements
+target "GWT Eclipse Plugin for 2021-06" with source requirements
 
-location "http://download.eclipse.org/cbi/updates/license" {
+location "https://download.eclipse.org/cbi/updates/license" {
     org.eclipse.license.feature.group
 }
 
-location "http://download.eclipse.org/releases/oxygen" {
+location "https://download.eclipse.org/releases/2021-06/" {
 	org.eclipse.sdk.feature.group
 	org.eclipse.jdt.feature.group
 	org.eclipse.m2e.feature.feature.group
@@ -27,8 +27,9 @@ location "http://download.eclipse.org/releases/oxygen" {
 	org.eclipse.datatools.sdk.feature.feature.group
 	org.eclipse.swtbot.eclipse.feature.group
 	
-	org.eclipse.epp.logging.aeri.feature.feature.group
-	org.eclipse.epp.logging.aeri.feature.source.feature.group
+	// AERI is no longer maintained by Eclipse
+//	org.eclipse.epp.logging.aeri.feature.feature.group
+//	org.eclipse.epp.logging.aeri.feature.source.feature.group
 	
 	org.eclipse.jetty.http
 	org.eclipse.jetty.servlet
@@ -38,7 +39,7 @@ location "http://download.eclipse.org/releases/oxygen" {
 
 
 // WTP SDKs aren't exposed through the main release links
-location "http://download.eclipse.org/webtools/downloads/drops/R3.9.0/R-3.9.0-20170613094504/repository" {
+location "https://download.eclipse.org/webtools/downloads/drops/R3.22.0/R-3.22.0-20210612170523/repository" {
     org.eclipse.jst.web_sdk.feature.feature.group
     org.eclipse.jst.server_sdk.feature.feature.group
     org.eclipse.jst.common.fproj.enablement.jdt.sdk.feature.group
@@ -48,7 +49,7 @@ location "http://download.eclipse.org/webtools/downloads/drops/R3.9.0/R-3.9.0-20
     org.eclipse.wst.server_adapters.sdk.feature.feature.group
 }
 
-location "http://download.eclipse.org/tools/orbit/downloads/drops/R20170516192513/repository" {
+location "https://download.eclipse.org/tools/orbit/downloads/drops/R20210602031627/repository" {
     org.hamcrest
 }
 

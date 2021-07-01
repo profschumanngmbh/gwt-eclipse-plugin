@@ -44,6 +44,7 @@
                 <id>org.eclipse.m2e.feature</id>
                 <versionRange>0.0.0</versionRange>
               </requirement>
+<!--
               <requirement>
                 <type>eclipse-feature</type>
                 <id>org.eclipse.jst.web_sdk.feature</id>
@@ -64,6 +65,7 @@
                 <id>org.eclipse.wst.server_adapters.sdk.feature</id>
                 <versionRange>0.0.0</versionRange>
               </requirement>
+-->
             </extraRequirements>
           </dependency-resolution>
         </configuration>

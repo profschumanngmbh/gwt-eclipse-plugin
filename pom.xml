@@ -9,10 +9,10 @@
   <packaging>pom</packaging>
 
   <properties>
-    <tycho.version>2.3.0</tycho.version>
+    <tycho.version>2.7.0</tycho.version> <!-- 2.7.1 and higher cause errors during test stage -->
     <tycho-extras.version>1.0.0</tycho-extras.version> <!-- TODO Remove this tag later -->
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <eclipse.target>2021-06</eclipse.target> <!-- TODO change to latest version -->
+    <eclipse.target>2022-03</eclipse.target> <!-- TODO change to latest version -->
 
     <!-- Repositories that Tycho will use to resolve compilation dependencies. -->
     <eclipse-repo.url>http://download.eclipse.org/releases/${eclipse.target}</eclipse-repo.url>
@@ -257,17 +257,17 @@
     </profile>
 
     <profile>
-      <id>build-eclipse-2021_06</id>
+      <id>build-eclipse-2022_03</id>
       <activation>
         <property>
           <name>eclipse.target</name>
-          <value>2021_06</value>
+          <value>2022_03</value>
         </property>
       </activation>
       <properties>
       </properties>
       <modules>
-        <module>eclipse/2021_06</module>
+        <module>eclipse/2022_03</module>
       </modules>
       <build>
         <plugins>
@@ -278,8 +278,8 @@
               <target>
                 <artifact>
                   <groupId>com.gwtplugins.eclipse</groupId>
-                  <artifactId>gwt-eclipse-2021_06</artifactId>
-                  <version>4.20.0-SNAPSHOT</version>
+                  <artifactId>gwt-eclipse-2022_03</artifactId>
+                  <version>4.23.0-SNAPSHOT</version>
                 </artifact>
               </target>
             </configuration>

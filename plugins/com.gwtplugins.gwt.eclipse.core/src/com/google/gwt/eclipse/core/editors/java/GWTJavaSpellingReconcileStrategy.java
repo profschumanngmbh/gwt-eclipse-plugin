@@ -141,8 +141,12 @@ public class GWTJavaSpellingReconcileStrategy extends
       return false;
     }
 
+    /* (non-Javadoc)
+     * @see org.eclipse.core.runtime.IConfigurationElement#getHandleId()
+     */
     @Override
     public int getHandleId() {
+      // TODO(${user}): Auto-generated method stub
       return 0;
     }
   }

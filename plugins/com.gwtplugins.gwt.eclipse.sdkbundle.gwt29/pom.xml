@@ -28,10 +28,10 @@
               <goal>wget</goal>
             </goals>
             <configuration>
-              <url>https://storage.googleapis.com/gwt-releases/gwt-2.9.0.zip</url>
+              <url>https://storage.googleapis.com/gwt-releases/gwt-2.9.0.zip</url> 
               <unpack>true</unpack>
               <overwrite>true</overwrite>
-              <outputFileName>gwt-2.8.1.zip</outputFileName>
+              <outputFileName>gwt-2.9.0.zip</outputFileName>
               <outputDirectory>${basedir}</outputDirectory>
             </configuration>
           </execution>

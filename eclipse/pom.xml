@@ -19,6 +19,7 @@
     <!-- <module>neon</module> -->
     <module>oxygen</module>
     <module>2021-06</module>
+    <module>2022-03</module>
     <module>ide-target-platform</module>
   </modules>
 

@@ -6,10 +6,10 @@ Bundle-ClassPath: .,
 Bundle-Localization: plugin
 Bundle-ManifestVersion: 2
 Bundle-Name: %pluginName
-Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Bundle-RequiredExecutionEnvironment: JavaSE-11
 Bundle-SymbolicName: com.gwtplugins.gwt.eclipse.oophm;singleton:=true
 Bundle-Vendor: %providerName
-Bundle-Version: 3.0.0.qualifier
+Bundle-Version: 4.0.1.qualifier
 Export-Package: com.google.gwt.eclipse.oophm,
  com.google.gwt.eclipse.oophm.breadcrumbs,
  com.google.gwt.eclipse.oophm.devmode,

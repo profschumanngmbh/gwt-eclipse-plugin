@@ -8,10 +8,10 @@ Bundle-ClassPath: .,
 Bundle-Localization: plugin
 Bundle-ManifestVersion: 2
 Bundle-Name: %pluginName
-Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Bundle-RequiredExecutionEnvironment: JavaSE-11
 Bundle-SymbolicName: com.gwtplugins.gdt.eclipse.core;singleton:=true
 Bundle-Vendor: %providerName
-Bundle-Version: 3.0.0.qualifier
+Bundle-Version: 4.0.1.qualifier
 Export-Package: com.google.common.annotations,
  com.google.common.base,
  com.google.common.base.internal,
@@ -83,9 +83,8 @@ Require-Bundle: com.gwtplugins.gdt.eclipse.platform,
  org.eclipse.wst.sse.core,
  org.eclipse.wst.sse.ui,
  org.eclipse.wst.xml.core,
- org.eclipse.wst.xml.ui
-Import-Package: org.eclipse.jdt.internal.core.manipulation
- 
+ org.eclipse.wst.xml.ui,
+ org.eclipse.jdt.core.manipulation;bundle-version="1.16.100"
 
 
 

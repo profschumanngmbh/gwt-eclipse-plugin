@@ -7,18 +7,20 @@
   <parent>
     <groupId>com.gwtplugins.eclipse</groupId>
     <artifactId>trunk</artifactId>
-    <version>3.0.0-SNAPSHOT</version>
+    <version>4.1.0-SNAPSHOT</version>
   </parent>
   
   <artifactId>eclipse-setup</artifactId>
-  <version>3.0.0-SNAPSHOT</version>
+  <version>4.1.0-SNAPSHOT</version>
   <packaging>pom</packaging>
 
   <modules>
     <!-- <module>mars</module> -->
     <!-- <module>neon</module> -->
     <module>oxygen</module>
+    <module>photon</modul
     <module>2022-09</module>
+    <module>2024-12</module>
     <module>ide-target-platform</module>
   </modules>
 

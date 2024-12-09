@@ -5,13 +5,13 @@
 
   <groupId>com.gwtplugins.eclipse</groupId>
   <artifactId>trunk</artifactId>
-  <version>4.0.1-SNAPSHOT</version>
+  <version>4.1.0-SNAPSHOT</version>
   <packaging>pom</packaging>
 
   <properties>
     <tycho.version>3.0.1</tycho.version>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <eclipse.target>2022-09</eclipse.target> <!-- TODO change to neon -->
+    <eclipse.target>2023-09</eclipse.target>
 
     <!-- Repositories that Tycho will use to resolve compilation dependencies. -->
     <eclipse-repo.url>https://download.eclipse.org/releases/${eclipse.target}</eclipse-repo.url>
@@ -41,12 +41,12 @@
 
     <!-- Features located in ./repo/category.xml -->
     <module>features/com.gwtplugins.eclipse.suite.v3.feature</module>
-    <module>features/com.gwtplugins.eclipse.sdkbundle.gwt27.feature</module>
     <module>features/com.gwtplugins.eclipse.sdkbundle.gwt28.feature</module>
     <module>features/com.gwtplugins.eclipse.sdkbundle.gwt29.feature</module>
+    <module>features/com.gwtplugins.eclipse.sdkbundle.gwt210.feature</module>
+    <module>features/com.gwtplugins.eclipse.sdkbundle.gwt211.feature</module>
 
     <!-- Core Plugins -->
-    <module>plugins/com.gwtplugins.gdt.eclipse.apiclientlib</module>
     <module>plugins/com.gwtplugins.gdt.eclipse.core</module>
     <module>plugins/com.gwtplugins.gdt.eclipse.core.test</module>
     <module>plugins/com.gwtplugins.gdt.eclipse.maven</module>
@@ -80,9 +80,10 @@
     <module>plugins/com.gwtplugins.gwt.eclipse.wtp.maven.test</module>
 
     <!-- SDK Bundles -->
-    <module>plugins/com.gwtplugins.gwt.eclipse.sdkbundle.gwt27</module>
     <module>plugins/com.gwtplugins.gwt.eclipse.sdkbundle.gwt28</module>
     <module>plugins/com.gwtplugins.gwt.eclipse.sdkbundle.gwt29</module>
+    <module>plugins/com.gwtplugins.gwt.eclipse.sdkbundle.gwt210</module>
+    <module>plugins/com.gwtplugins.gwt.eclipse.sdkbundle.gwt211</module>
 
     <!-- Testing utils -->
     <module>plugins/com.gwtplugins.gcp.eclipse.testing</module>
@@ -256,17 +257,17 @@
     </profile>
 
     <profile>
-      <id>build-eclipse-2022-09</id>
+      <id>build-eclipse-2023-09</id>
       <activation>
         <property>
           <name>eclipse.target</name>
-          <value>2022-09</value>
+          <value>2023-09</value>
         </property>
       </activation>
       <properties>
       </properties>
       <modules>
-        <module>eclipse/2022-09</module>
+        <module>eclipse/2023-09</module>
       </modules>
       <build>
         <plugins>
@@ -277,8 +278,8 @@
               <target>
                 <artifact>
                   <groupId>com.gwtplugins.eclipse</groupId>
-                  <artifactId>gwt-eclipse-2022-09</artifactId>
-                  <version>4.25.0-SNAPSHOT</version>
+                  <artifactId>gwt-eclipse-2023-09</artifactId>
+                  <version>4.27.0-SNAPSHOT</version>
                 </artifact>
               </target>
             </configuration>

@@ -99,8 +99,8 @@ public class NewWebAppProjectWizard extends NewElementWizard implements INewWiza
     packageName = newProjectWizardPage.getPackage();
     locationURI = newProjectWizardPage.getCreationLocationURI();
     isGenerateEmptyProject = newProjectWizardPage.isGenerateEmptyProject();
-    buildAnt = newProjectWizardPage.getBuildAnt();
-    buildMaven = newProjectWizardPage.getBuildMaven();
+    buildAnt = newProjectWizardPage.isBuildAnt();
+    buildMaven = newProjectWizardPage.isBuildMaven();
 
     /**
      * HACK: We need to make sure that the DebugUITools plugin (and the DebugUIPlugin plugin) is loaded via the main

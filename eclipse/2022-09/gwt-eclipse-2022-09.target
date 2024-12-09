@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <?pde?>
-<!-- generated with https://github.com/eclipse-cbi/targetplatform-dsl --><target name="GWT Eclipse Plugin for 2022-09" sequenceNumber="1664701810">
+<!-- generated with https://github.com/eclipse-cbi/targetplatform-dsl -->
+<target name="GWT Eclipse Plugin for 2022-09" sequenceNumber="1733759172">
   <locations>
-    <location includeAllPlatforms="false" includeConfigurePhase="false" includeMode="planner" includeSource="true" type="InstallableUnit">
+    <location includeMode="planner" includeAllPlatforms="false" includeSource="true" includeConfigurePhase="false" type="InstallableUnit">
       <unit id="org.eclipse.license.feature.group" version="2.0.2.v20181016-2210"/>
       <repository location="https://download.eclipse.org/cbi/updates/license"/>
     </location>
-    <location includeAllPlatforms="false" includeConfigurePhase="false" includeMode="planner" includeSource="true" type="InstallableUnit">
+    <location includeMode="planner" includeAllPlatforms="false" includeSource="true" includeConfigurePhase="false" type="InstallableUnit">
       <unit id="org.eclipse.sdk.feature.group" version="4.25.0.v20220831-1800"/>
       <unit id="org.eclipse.jdt.feature.group" version="3.18.1300.v20220831-1800"/>
       <unit id="org.eclipse.m2e.feature.feature.group" version="2.0.4.20220904-1703"/>
@@ -22,7 +23,7 @@
       <unit id="org.eclipse.jetty.util" version="10.0.11"/>
       <repository location="https://download.eclipse.org/releases/2022-09/"/>
     </location>
-    <location includeAllPlatforms="false" includeConfigurePhase="false" includeMode="planner" includeSource="true" type="InstallableUnit">
+    <location includeMode="planner" includeAllPlatforms="false" includeSource="true" includeConfigurePhase="false" type="InstallableUnit">
       <unit id="org.eclipse.jst.web_sdk.feature.feature.group" version="3.27.0.v202206160204"/>
       <unit id="org.eclipse.jst.server_sdk.feature.feature.group" version="3.4.600.v202206110154"/>
       <unit id="org.eclipse.jst.common.fproj.enablement.jdt.sdk.feature.group" version="3.27.0.v202208260526"/>
@@ -31,6 +32,10 @@
       <unit id="org.eclipse.jst.enterprise_sdk.feature.feature.group" version="3.27.0.v202206160204"/>
       <unit id="org.eclipse.wst.server_adapters.sdk.feature.feature.group" version="3.2.700.v201910252115"/>
       <repository location="https://download.eclipse.org/webtools/repository/2022-09/"/>
+    </location>
+    <location includeMode="planner" includeAllPlatforms="false" includeSource="true" includeConfigurePhase="false" type="InstallableUnit">
+      <unit id="org.jdom2" version="2.0.6.v20191125-0928"/>
+      <repository location="https://download.eclipse.org/tools/orbit/downloads/drops/R20220830213456/repository"/>
     </location>
   </locations>
 </target>

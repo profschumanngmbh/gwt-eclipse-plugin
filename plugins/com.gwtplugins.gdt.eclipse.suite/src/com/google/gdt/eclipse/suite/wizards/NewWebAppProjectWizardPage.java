@@ -597,11 +597,11 @@ public class NewWebAppProjectWizardPage extends WizardPage {
     }
   }
 
-  public boolean getBuildAnt() {
+  boolean isBuildAnt() {
     return generateAntCodeCheckbox.getSelection();
   }
 
-  public boolean getBuildMaven() {
+  boolean isBuildMaven() {
     return generateMavenCodeCheckbox.getSelection();
   }
 

@@ -44,5 +44,7 @@ location "https://download.eclipse.org/webtools/repository/2022-09/" {
     org.eclipse.wst.server_adapters.sdk.feature.feature.group
 }
 
-
+location "https://download.eclipse.org/tools/orbit/downloads/drops/R20220830213456/repository" {
+	org.jdom2
+}
 

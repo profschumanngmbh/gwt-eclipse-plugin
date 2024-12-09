@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?pde?>
+<!-- generated with https://github.com/eclipse-cbi/targetplatform-dsl -->
+<target name="GWT Eclipse Plugin for 2024-12" sequenceNumber="1733759844">
+  <locations>
+    <location includeMode="planner" includeAllPlatforms="false" includeSource="true" includeConfigurePhase="false" type="InstallableUnit">
+      <unit id="org.eclipse.license.feature.group" version="2.0.2.v20181016-2210"/>
+      <repository location="https://download.eclipse.org/cbi/updates/license"/>
+    </location>
+    <location includeMode="planner" includeAllPlatforms="false" includeSource="true" includeConfigurePhase="false" type="InstallableUnit">
+      <unit id="org.eclipse.sdk.feature.group" version="4.34.0.v20241120-1800"/>
+      <unit id="org.eclipse.jdt.feature.group" version="3.20.0.v20241120-1800"/>
+      <unit id="org.eclipse.m2e.feature.feature.group" version="2.7.0.20241126-1642"/>
+      <unit id="org.eclipse.m2e.sdk.feature.feature.group" version="2.7.0.20241126-1642"/>
+      <unit id="org.eclipse.m2e.wtp.feature.feature.group" version="1.6.1.20231024-1618"/>
+      <unit id="org.eclipse.m2e.wtp.sdk.feature.feature.group" version="1.6.1.20231024-1618"/>
+      <unit id="org.eclipse.jpt.jpa.feature.feature.group" version="3.8.0.v202405180120"/>
+      <unit id="org.eclipse.datatools.sdk.feature.feature.group" version="1.16.1.202403060734"/>
+      <unit id="org.eclipse.swtbot.eclipse.feature.group" version="4.2.1.202406141605"/>
+      <repository location="https://download.eclipse.org/releases/2024-12/"/>
+    </location>
+    <location includeMode="planner" includeAllPlatforms="false" includeSource="true" includeConfigurePhase="false" type="InstallableUnit">
+      <unit id="org.eclipse.jetty.http" version="11.0.24"/>
+      <unit id="org.eclipse.jetty.servlet" version="11.0.24"/>
+      <unit id="org.eclipse.jetty.server" version="11.0.24"/>
+      <unit id="org.eclipse.jetty.util" version="11.0.24"/>
+      <repository location="https://download.eclipse.org/oomph/jetty/release/11.0.24/"/>
+    </location>
+    <location includeMode="planner" includeAllPlatforms="false" includeSource="true" includeConfigurePhase="false" type="InstallableUnit">
+      <unit id="org.eclipse.jst.web_sdk.feature.feature.group" version="3.35.0.v202407060546"/>
+      <unit id="org.eclipse.jst.server_sdk.feature.feature.group" version="3.4.600.v202206110154"/>
+      <unit id="org.eclipse.jst.common.fproj.enablement.jdt.sdk.feature.group" version="3.29.0.v202308161955"/>
+      <unit id="org.eclipse.wst.common.fproj.sdk.feature.group" version="3.7.4.v202308161955"/>
+      <unit id="org.eclipse.wst.web_sdk.feature.feature.group" version="3.36.0.v202409282004"/>
+      <unit id="org.eclipse.jst.enterprise_sdk.feature.feature.group" version="3.36.0.v202409282008"/>
+      <unit id="org.eclipse.wst.server_adapters.sdk.feature.feature.group" version="3.35.0.v202408152039"/>
+      <repository location="https://download.eclipse.org/webtools/repository/2024-12/"/>
+    </location>
+    <location includeMode="planner" includeAllPlatforms="false" includeSource="true" includeConfigurePhase="false" type="InstallableUnit">
+      <unit id="org.jdom2" version="2.0.6.v20230720-0727"/>
+      <repository location="https://download.eclipse.org/tools/orbit/simrel/orbit-aggregation/2024-12"/>
+    </location>
+  </locations>
+</target>

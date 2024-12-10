@@ -15,5 +15,5 @@ Require-Bundle: org.eclipse.ui,
  org.eclipse.wst.sse.core,
  com.gwtplugins.gwt.eclipse.core,
  org.eclipse.debug.core
-Bundle-RequiredExecutionEnvironment: JavaSE-11
+Bundle-RequiredExecutionEnvironment: JavaSE-21
 Bundle-ActivationPolicy: lazy

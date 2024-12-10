@@ -6,7 +6,7 @@ Bundle-ClassPath: .,
 Bundle-Localization: plugin
 Bundle-ManifestVersion: 2
 Bundle-Name: %pluginName
-Bundle-RequiredExecutionEnvironment: JavaSE-11
+Bundle-RequiredExecutionEnvironment: JavaSE-21
 Bundle-SymbolicName: com.gwtplugins.gwt.eclipse.oophm;singleton:=true
 Bundle-Vendor: %providerName
 Bundle-Version: 4.1.0.qualifier

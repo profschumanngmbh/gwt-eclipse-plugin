@@ -1,7 +1,7 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: Test Fragment
-Bundle-RequiredExecutionEnvironment: JavaSE-11
+Bundle-RequiredExecutionEnvironment: JavaSE-21
 Bundle-SymbolicName: com.gwtplugins.gdt.eclipse.core.test
 Bundle-Vendor: GWT Project
 Bundle-Version: 4.1.0.qualifier

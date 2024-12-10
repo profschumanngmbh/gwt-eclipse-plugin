@@ -3,7 +3,7 @@ Bundle-ActivationPolicy: lazy
 Bundle-Activator: com.google.gwt.eclipse.testing.GwtTestingPlugin
 Bundle-ManifestVersion: 2
 Bundle-Name: GWT Testing Plug-in
-Bundle-RequiredExecutionEnvironment: JavaSE-21
+Bundle-RequiredExecutionEnvironment: JavaSE-11
 Bundle-SymbolicName: com.gwtplugins.gwt.eclipse.testing;singleton:=true
 Bundle-Vendor: GWT Project
 Bundle-Version: 4.1.0.qualifier
